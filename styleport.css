@@ -1,0 +1,309 @@
+
+	body {
+		background-color: rgba(247, 247, 247, 1);
+		font-family: 'Gotham Narrow', sans-serif;
+		font-weight: 400;
+		font-size: 1.05em;
+		line-height: 1.4em;
+		text-align: left;
+		color: rgba(46, 46, 46, 1);
+		margin: 0 auto;
+		max-width: 650px;
+		min-width: 320px;
+	    padding: 0% 10% 0% 10%;
+	    margin-bottom: 3em;
+	}
+
+	h1 {
+		font-weight: 700;
+		font-size: 2.5em;
+		line-height: 1em;
+		margin-top: 15%;
+		margin-bottom: 0.5em;
+	}
+	
+	h2 {
+		font-size: 2em;
+		font-weight: 700;
+		margin-top: 0.3em;
+		margin-bottom: 0;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		font-weight: 700;
+		margin-top: 1em;
+		margin-bottom: 0;
+	}
+
+	h4 {
+		font-size: 0.9em;
+		font-weight: 700;
+		margin-top: 1em;
+		margin-bottom: 0;
+		font-style: oblique;
+
+	}
+	
+	li {
+	    margin-top: 0.5em;
+	}
+
+	p {
+		margin-top: 0.5em;		
+	}
+
+	hr {
+	    width: 70%;
+	    margin-left: 0;
+	    border: 0;
+	    height: 1px;
+		margin-top: 4em;
+		background-image: linear-gradient(90deg, rgba(46, 46, 46, 1), rgba(46, 46, 46, 0))
+
+	}
+
+	.hrr {
+		width: 70%;
+	    float: right;
+	    border: 0;
+	    height: 1px;
+		margin-top: 2em;
+		background-image: linear-gradient(90deg, rgba(46, 46, 46, 0), rgba(46, 46, 46, 1))
+
+	}
+
+	footer {
+		margin-top: 3em;
+		margin-bottom: 0em;
+				
+	}
+
+	.footerp {
+		
+		font-size: 0.7em;
+		text-align: center;
+		color: rgba(46, 46, 46, 0.7);
+		line-height: 1.5em;
+				
+	}
+
+	.foota:link {
+	    color: rgba(46, 46, 46, 0.7);
+	    text-decoration: underline;
+	    box-shadow: none;
+	}
+
+	.foota:hover {
+	    color: rgba(46, 46, 46, 1);
+	    box-shadow: none;
+	  
+		}
+
+
+
+	
+	
+	.column {
+	  float: left;
+	  width: 50%;
+
+	}
+
+	
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	  margin: 0.5em;
+
+
+	}
+	
+	.columntext {
+	
+		margin-right: 1em;
+
+
+	}
+
+	.columntextr {
+	
+		margin-left: 1em;
+		margin-right: 0em;
+	
+	}
+
+	.titleresume {
+	
+		text-align: right;
+		font-weight: 700;
+		padding-right: 0.5em;
+	
+	}
+
+	.textresume {
+	
+		padding-left: 0.5em;
+		
+	
+	}
+
+	.specs {
+	
+		background-color: rgba(46, 46, 46, 0.1);
+		border-right: 0.5em solid rgba(46, 46, 46, 1);
+		color: rgba(46, 46, 46, 1);
+		padding-left: 1em;
+		padding-top: 0.5em;
+		padding-bottom: 0.1em;
+		margin-top: 0.5em;
+	}
+
+
+	img {
+		max-width: 100%;
+
+		
+	}
+	
+	.columnimg {
+		max-width: 100%;
+		margin-top: 0em;
+		object-fit: cover;
+		object-position: 100% 0;
+		width: 325px;
+  		height: 325px;
+  		box-shadow: none;
+  		
+ 	}
+	a.aimg:link {
+		box-shadow: inset 0 0em;
+ 	}
+
+
+	a:link {
+	    color: rgba(46, 46, 46, 1);
+	    text-decoration: none;
+	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.85);
+		}
+	
+	a:visited {
+	    color: rgba(46, 46, 46, 1);
+	    text-decoration: none;
+	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.85);
+		} 
+		
+	a:hover {
+	    color: rgba(255, 255, 255, 1);
+	    box-shadow: inset 0 -2em 0 rgba(53, 123, 179, 0.85);
+		}    
+		
+	a:active {
+	    font-weight: bold;
+		} 
+
+	::selection {
+		background-color: rgba(53, 123, 179, 0.68);
+		}
+
+	
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Light.otf");
+		font-weight: 200;
+		}
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Book.otf");
+		font-weight: 400;
+		}
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Medium.otf");
+		font-weight: 500;
+		}
+		@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Bold.otf");
+		font-weight: 700;
+		}
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Ultra.otf");
+		font-weight: 900;
+		}
+
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Light.otf");
+		font-weight: 200;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Book.otf");
+		font-weight: 400;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Medium.otf");
+		font-weight: 500;
+		}
+		@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Bold.otf");
+		font-weight: 700;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Ultra.otf");
+		font-weight: 900;
+		}
+
+	@media screen and (max-width: 600px) {
+	  .desk {
+	  	display: none;
+	  	  }
+
+	  .column {
+    width: 100%;
+ 	  }
+
+ 	hr {
+    width: 0%;
+    margin-top: 4em;
+ 	  }
+
+ 	  .columnimg {
+		max-width: 100%;
+		box-shadow: none;
+		width: 100%;
+		
+	}
+
+ 	h4 {
+    margin-top: 0em;
+ 	}
+
+ 	 
+
+	.specs {
+	
+		background-color: rgba(46, 46, 46, 0.1);
+		border-top: 0.5em solid rgba(46, 46, 46, 1);
+		border-right: 0;
+		color: rgba(46, 46, 46, 1);
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-bottom: 0.1em;
+	}
+
+	}
+
+	@media screen and (min-width: 600px) {
+	  .mobi {
+	    display: none;
+	  }
+
+

@@ -119,11 +119,37 @@
 		font-style: oblique;		
 	}
 	
-	footer {
+	/*footer {
 	    background: rgba(46, 46, 46, 1);
 	    border-radius: 0.7em;
         border-left: 1em solid rgba(53, 123, 179, 0.85);  
-	}  
+	} */
+	footer {
+		margin-top: 3em;
+		margin-bottom: 0em;
+				
+	}
+
+	.footerp {
+		
+		font-size: 0.7em;
+		text-align: center;
+		color: rgba(46, 46, 46, 0.7);
+		line-height: 1.5em;
+				
+	}
+
+	.foota:link {
+	    color: rgba(46, 46, 46, 0.7);
+	    text-decoration: underline;
+	    box-shadow: none;
+	}
+
+	.foota:hover {
+	    color: rgba(46, 46, 46, 1);
+	    box-shadow: none;
+	  
+		}
 	
 	.symbol {
 		margin-top:3em;
